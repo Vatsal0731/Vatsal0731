@@ -50,17 +50,24 @@ body {
 }
 
 .profile-picture {
-  width: 150px; /* Adjust width as needed */
+  width: 250px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional, makes the photo round */
-  margin-right: 50%; /* Add space between the photo and text */
+  /* margin-right: 50%; Add space between the photo and text */
   float: middle; /* Position the image to the left */
 }
 
+.about {
+  max-width: 600px;
+}
+
 .block1 {
-  display: grid;
+  display: flex;
   max-width: 900px;
-  margin: auto;
+  /* margin: auto; */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .block2 {
